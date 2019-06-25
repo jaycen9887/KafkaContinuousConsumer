@@ -10,8 +10,7 @@ import com.kafka.constants.Constants;
 
 public class KafkaConsumer {
 
-	//@KafkaListener(topics = { Constants.KAFKA_TOPIC_01, Constants.KAFKA_TOPIC_02, Constants.KAFKA_TOPIC_03 })
-	@KafkaListener(topics = { Constants.KAFKA_TOPIC_01 })
+	@KafkaListener(topics = { Constants.KAFKA_TOPIC })
 	public void receive(Object obj) {
 		System.out.println(getJson(obj));
 	}

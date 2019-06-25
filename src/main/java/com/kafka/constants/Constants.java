@@ -9,13 +9,9 @@ public class Constants {
 
 	public final static String KAFKA_SERVER_LIST = "";
 
-	public final static String KAFKA_TOPIC_01 = "menu";
+	public final static String KAFKA_TOPIC = "menu";
 
-	public final static String KAFKA_TOPIC_02 = "json02";
-
-	public final static String KAFKA_TOPIC_03 = "json03";
-
-	public final static String GROUP_ID = "json-group";
+	public final static String GROUP_ID = "menu-group";
 
 	public final static boolean AUTO_COMMIT_CONFIG = false;
 
